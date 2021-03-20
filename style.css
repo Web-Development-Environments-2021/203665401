@@ -36,20 +36,20 @@ h1 {
   h1:before {
     content: "";
     display: block;
-    width: 200px;
+    width: 600px;
     height: 5px;
     background: blue;
-    left: 0;
+    left: -400px;
     top: 50%;
     position: absolute;
   }
   h1:after {
     content: "";
     display: block;
-    width: 200px;
+    width: 600px;
     height: 5px;
     background: blue;
-    right: 0;
+    right: -400px;
     top: 50%;
     position: absolute;
   }
